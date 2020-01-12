@@ -242,3 +242,39 @@ fieldset, h1 {
     right: 40px;
     z-index: 2;
 }
+
+/*EXERCICE 7*/
+/*FLOAT*/
+
+#float-1 {
+    float: left;
+    width:  250px;
+    height: 250px;
+}
+
+#float-2 {
+    float: left;
+    width:  250px;
+    height: 250px;
+}
+
+#float-3 {
+    float: none;
+    clear: both;
+    width: 1200px;
+    height: 200px;
+}
+
+#float-4 {
+    float: right;
+    width: 250px;
+    height: 250px;
+}
+
+#float-5 {
+    float: right;
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+    border: 2px solid black;
+}
