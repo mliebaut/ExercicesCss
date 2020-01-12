@@ -66,3 +66,33 @@ fieldset, h1 {
     right: 300px;
 }
 
+
+/*EXERCICE 3*/
+/*POSITION ABSOLUTE*/
+
+#fd-absolute {
+    height: 400px;
+}
+
+/*Ici je suis obligée de donner une valeur à ma hauteur*/
+
+#absolute-1 {
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: 320px;
+}
+
+#absolute-2 {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    margin: 55px 0 0 95px;
+}
+
+#absolute-3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 150px 0 0 55px;
+}
