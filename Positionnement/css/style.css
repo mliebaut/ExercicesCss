@@ -2,30 +2,39 @@ fieldset, h1 {
     text-align: center;
   }
 
+.vert {
+    background-color: greenyellow;
+}
+
+.violet {
+    background-color: hotpink;
+}
+
+.orange {
+    background-color: black;
+}
+
 /*EXERCICE 1*/
 /*NO POSITION*/
 
-#bloc1 {
+#no-position-1 {
     width: 600px;
     height: 200px;
-    background-color: rgb(3, 182, 3);
     margin: auto;
     padding-top: 50px;
 }
 
-#bloc2 {
+#no-position-2 {
     width: 400px;
     height: 100px;
-    background-color: rgb(184, 58, 184);
     margin: auto;
     padding-top: 50px;
 
 }
 
-#bloc3 {
+#no-position-3 {
     width: 200px;
     height: 10px;
-    background-color: orange;
     margin: auto;
     padding-top: 50px;
 
@@ -33,3 +42,27 @@ fieldset, h1 {
 
 /*EXERCICE 2*/
 /*POSITION RELATIVE*/
+
+#relative-1 {
+    width: 610px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+}
+
+#relative-2 {
+    width: 450px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 240px;
+}
+
+#relative-3 {
+    width: 330px;
+    height: 50px;
+    position: relative;
+    top: 25px;
+    right: 300px;
+}
+
