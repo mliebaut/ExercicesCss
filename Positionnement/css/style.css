@@ -4,14 +4,22 @@ fieldset, h1 {
 
 .vert {
     background-color: greenyellow;
+    border: 1px solid black;
 }
 
 .violet {
     background-color: hotpink;
+    border: 1px solid black;
 }
 
 .orange {
     background-color: black;
+    border: 1px solid black;
+}
+
+.bleu {
+    background-color: cornflowerblue;
+    border: 1px solid black;
 }
 
 /*EXERCICE 1*/
@@ -95,4 +103,39 @@ fieldset, h1 {
     height: 100px;
     position: absolute;
     margin: 150px 0 0 55px;
+}
+
+/*EXERCICE 4*/
+/*POSITION ABSOLUTE*/
+
+#fd-absolute2 {
+    height: 520px;
+}
+
+#absolute2-1 {
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    margin: 0 0 0 300px;
+}
+
+#absolute2-2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin: 100px 200px 200px 200px;
+}
+
+#absolute2-3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 50px 200px 200px 50px;
+}
+
+#absolute2-4 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 200px 200px 200px 200px;
 }
