@@ -114,7 +114,7 @@ fieldset, h1 {
 /*POSITION ABSOLUTE*/
 
 #fd-absolute2 {
-    height: 520px;
+    height: 550px;
 }
 
 #absolute2-1 {
@@ -147,6 +147,10 @@ fieldset, h1 {
 
 /*EXERCICE 5*/
 /*POSITION ABSOLUTE SQUARES*/
+
+#fd-absolute3 {
+    height: 700px;
+}
 
 #absolute3-1 {
     box-sizing: border-box;
@@ -187,3 +191,54 @@ fieldset, h1 {
     left: 610px;
     bottom: 445px;
   }
+
+/*EXERCICE 6*/
+/*FREE POSITION*/
+
+#free-pos-1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: calc(100vw - 50vw - 300px);
+}
+
+#free-pos-2 {
+    width: 236px;
+    height: 236px;
+    position: absolute;
+    opacity: 90%;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+}
+
+#free-pos-3 {
+    width: 236px;
+    height: 236px;
+    position: absolute;
+    opacity: 90%;
+    top: 80px;
+    left: 80px;
+    z-index: 4;
+}
+
+#free-pos-4 {
+    width: 236px;
+    height: 236px;
+    position: absolute;
+    opacity: 90%;
+    bottom: 80px;
+    right: 80px;
+    z-index: 3;
+}
+
+#free-pos-5 {
+    width: 236px;
+    height: 236px;
+    position: absolute;
+    opacity: 90%;
+    bottom: 40px;
+    right: 40px;
+    z-index: 2;
+}
