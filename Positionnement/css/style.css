@@ -1,6 +1,12 @@
+/* GLOBAL */
+
 fieldset, h1 {
     text-align: center;
   }
+
+h1, h2, p, li{
+    font-family: "Roboto";
+}
 
 .vert {
     background-color: greenyellow;
@@ -27,8 +33,8 @@ fieldset, h1 {
     border: 2px solid black;
 }
 
-/*EXERCICE 1*/
-/*NO POSITION*/
+/* EXERCICE 1*/
+/* NO POSITION */
 
 #no-position-1 {
     width: 600px;
@@ -53,8 +59,8 @@ fieldset, h1 {
 
 }
 
-/*EXERCICE 2*/
-/*POSITION RELATIVE*/
+/* EXERCICE 2 */
+/* POSITION RELATIVE */
 
 #relative-1 {
     width: 610px;
@@ -80,14 +86,14 @@ fieldset, h1 {
 }
 
 
-/*EXERCICE 3*/
-/*POSITION ABSOLUTE*/
+/* EXERCICE 3 */
+/* POSITION ABSOLUTE */
 
 #fd-absolute {
     height: 400px;
 }
 
-/*Ici je suis obligée de donner une valeur à ma hauteur*/
+/* Ici je suis obligée de donner une valeur à ma hauteur */
 
 #absolute-1 {
     width: 600px;
@@ -110,8 +116,8 @@ fieldset, h1 {
     margin: 150px 0 0 55px;
 }
 
-/*EXERCICE 4*/
-/*POSITION ABSOLUTE*/
+/* EXERCICE 4 */
+/* POSITION ABSOLUTE */
 
 #fd-absolute2 {
     height: 550px;
@@ -145,8 +151,8 @@ fieldset, h1 {
     margin: 200px 200px 200px 200px;
 }
 
-/*EXERCICE 5*/
-/*POSITION ABSOLUTE SQUARES*/
+/* EXERCICE 5 */
+/* POSITION ABSOLUTE SQUARES */
 
 #fd-absolute3 {
     height: 700px;
@@ -192,8 +198,8 @@ fieldset, h1 {
     bottom: 445px;
   }
 
-/*EXERCICE 6*/
-/*FREE POSITION*/
+/* EXERCICE 6 */
+/* FREE POSITION */
 
 #free-pos-1 {
     box-sizing: border-box;
@@ -243,8 +249,8 @@ fieldset, h1 {
     z-index: 2;
 }
 
-/*EXERCICE 7*/
-/*FLOAT*/
+/* EXERCICE 7 */
+/* FLOAT */
 
 #float-1 {
     float: left;
@@ -277,4 +283,39 @@ fieldset, h1 {
     height: 250px;
     background-color: grey;
     border: 2px solid black;
+}
+
+/* EXERCICE 8 */
+/* STICKY MENU */
+
+#sticky-menu {
+    position: sticky;
+    float: left;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+p {
+    padding: 5px;
+    margin: auto;
+    text-align: justify;
+}
+
+#keep-scroll {
+    height: 1000px;
 }
