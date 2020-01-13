@@ -5,7 +5,7 @@ fieldset, h1 {
   }
 
 h1, h2, p, li{
-    font-family: "Roboto";
+    font-family: "Arial";
 }
 
 .vert {
@@ -99,7 +99,7 @@ h1, h2, p, li{
     width: 600px;
     height: 200px;
     position: absolute;
-    left: 320px;
+    left: calc(100vw - 50vw - 300px);
 }
 
 #absolute-2 {
@@ -127,7 +127,7 @@ h1, h2, p, li{
     width: 600px;
     height: 50px;
     position: absolute;
-    margin: 0 0 0 300px;
+    left: calc(100vw - 50vw - 300px);
 }
 
 #absolute2-2 {
@@ -151,7 +151,7 @@ h1, h2, p, li{
     margin: 200px 200px 200px 200px;
 }
 
-/* EXERCICE 5 */
+/* EXERCICE 5 / PART 1 */
 /* POSITION ABSOLUTE SQUARES */
 
 #fd-absolute3 {
@@ -160,42 +160,95 @@ h1, h2, p, li{
 
 #absolute3-1 {
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
     width: 600px;
     height: 600px;
-    left: calc(100vw - 50vw - 300px);
+    margin: auto;    
 }
 
 #absolute3-2 {
-    position: relative;
+    position: absolute;
     width: 250px;
     height: 250px;
-    left: 325px;
-    top: 30px;
+    left: 0px;
+    top: 0px;
+    margin: 10px;
   }
   
   #absolute3-3 {
-    position: relative;
+    position: absolute;
     width: 250px;
     height: 250px;
-    left: 610px;
-    top: -223px;
+    left: calc(250px + 72px);
+    top: 0px;
+    margin: 10px;
   }
   
   #absolute3-4 {
-    position: relative;
+    position: absolute;
     width: 250px;
     height: 250px;
-    left: 325px;
-    bottom: 192px;
+    top: calc(250px + 72px);
+    margin: 10px;
   }
   
   #absolute3-5  {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: calc(250px + 72px);
+    top: calc(250px + 72px);
+    margin: 10px;
+  }
+
+/* EXERCICE 5 / PART 2 */
+/* POSITION RELATIVES SQUARES */
+
+#fd-absolute3 {
+    height: 700px;
+}
+
+#relative2-1 {
+    box-sizing: border-box;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: auto;    
+}
+
+#relative2-2 {
     position: relative;
     width: 250px;
     height: 250px;
-    left: 610px;
-    bottom: 445px;
+    left: 0px;
+    top: 0px;
+    margin: 10px;
+}
+
+#relative2-3 {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    left: calc(250px + 72px);
+    bottom: 263px;
+    margin: 10px;
+  }
+  
+  #relative2-4 {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    bottom: 205px;
+    margin: 10px;
+  }
+  
+  #relative2-5  {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    left: calc(250px + 72px);
+    bottom: calc(205px + 264px);
+    margin: 10px;
   }
 
 /* EXERCICE 6 */
@@ -251,6 +304,12 @@ h1, h2, p, li{
 
 /* EXERCICE 7 */
 /* FLOAT */
+
+#container {
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+}
 
 #float-1 {
     float: left;
